@@ -92,7 +92,7 @@ function evalNumbers() {
 
     num1 = parseFloat(evalNum1.value);
     num2 = parseFloat(evalNum2.value);
-    operation = operationType.value.toLowerCase();
+    operation = operationType.value;
 
     switch (operation) {
         case "add":
